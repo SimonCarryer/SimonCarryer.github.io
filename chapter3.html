@@ -9,45 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="scripts/main.js"></script>
     <title>Adventure in New Zealand</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Chapters
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="chapter1.html">Chapter 1</a></li>
-                            <li><a class="dropdown-item" href="chapter2.html">Chapter 2</a></li>
-                            <li><a class="dropdown-item" href="chapter3.html">Chapter 3</a></li>
-
-                           </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="chapter2.html" tabindex="-1">Previous</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="chapter2.html" tabindex="-1" aria-disabled="true">Next</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body onload="buildNav(3)">
+   <div id="nav-placeholder">
+   </div>
 <div class="text">
      <h2> CHAPTER III. </h2>
     <h3>The Whaling-Town--Try-Works.</h3>
@@ -91,7 +59,7 @@
         <i>Rauperaha,</i> and by means of this alliance maintained another whaling station at a harbour called
         <i>Porirua,</i> on the main between the islands of <i>Kapiti</i> and <i>Mana.</i></div>
         <div class="simon">
-            <p>I'm not sure what Toms (or Thoms) did to annoy Jerningham, but there's no contemporary source which corroborates this negative assessment of the guy. He seems to have been quite well regarded and, as we'll see later, he became quite successful.</p>
+            <p>I'm not sure what Toms (or Thoms) did to annoy Jerningham, but there's no contemporary source which corroborates this negative assessment of the guy. Toms seems to have been quite well regarded and, as we'll see later, he became quite successful.</p>
             <p>This is a pattern we'll see again in this narrative - Jerningham will remorselessly blacken the name of anyone who disagrees with him or even just strikes him the wrong way. He's what historians call a "massive jerk".</p>
             <p>Perhaps the most notable thing about Joseph Toms is that he would go on to sign the Treaty of Waitangi as a witness on behalf of his father-in-law, Nohorua.</p>
         </div>
@@ -569,4 +537,5 @@ integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroa
 crossorigin="anonymous"></script>
 
 </body>
+
 </html>

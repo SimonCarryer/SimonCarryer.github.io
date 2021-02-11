@@ -154,3 +154,7 @@ div.footer {
     width: 40em;
     text-align: center;
 }
+
+#nav-placeholder {
+    height: 60px;
+}
