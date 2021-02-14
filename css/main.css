@@ -39,20 +39,20 @@ div.footnotes {
 h1{
     font-size: xx-large;
     font-weight: bold;
-    font-family: 'Big Caslon', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 h2{
     font-size: x-large;
     font-weight: bold;
-    font-family: 'Big Caslon', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 h3{
     font-size: large;
     font-weight: bold;
-    font-family: 'Big Caslon', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 div.jerningham{
-    font-family: 'Big Caslon', 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 110%;
     margin-bottom: 1em;
 }
@@ -153,6 +153,11 @@ div.footer {
     margin-right: auto;
     width: 40em;
     text-align: center;
+}
+
+a.btn{
+    margin-left: 10px;
+    width: 10em;
 }
 
 #nav-placeholder {

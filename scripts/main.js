@@ -61,3 +61,21 @@ function buildNav(chapter) {
     }
     navBarContent.appendChild(next);
 }
+
+function buildFooter(chapter) {
+    var footer = document.getElementById("footer");
+    if (chapter == 1) {
+        footer.innerHTML += `<a type="button" class="btn btn-light disabled" href="chapter${chapter - 1}.html" role="button">Previous</a>`
+    }
+    else {
+        footer.innerHTML += `<a type="button" class="btn btn-light" href="chapter${chapter - 1}.html" role="button">Previous</a>`
+    }
+
+    if (chapter == n_chapters) {
+        footer.innerHTML += `<a type="button" class="btn btn-light disabled" href="chapter${chapter + 1}.html" role="button" disabled>Next</a>`
+    }
+    else {
+        footer.innerHTML += `<a type="button" class="btn btn-light" href="chapter${chapter + 1}.html" role="button">Next</a>`
+    }
+
+}
