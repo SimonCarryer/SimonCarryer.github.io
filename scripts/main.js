@@ -1,5 +1,5 @@
 
-var n_chapters = 5
+var n_chapters = 7
 var nav = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
 <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
